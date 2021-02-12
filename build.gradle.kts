@@ -10,8 +10,11 @@ repositories {
 }
 
 dependencies {
+    implementation(platform("software.amazon.awssdk:bom:2.15.80"))
+
     implementation("com.amazonaws:aws-lambda-java-core:1.2.1")
     implementation("com.amazonaws:aws-lambda-java-events:3.7.0")
+    implementation("software.amazon.awssdk:dynamodb")
 }
 
 tasks {
