@@ -1,0 +1,40 @@
+{
+	"test": [
+		{
+			"PutRequest": {
+				"Item": {
+					"id": {
+						"S": "001"
+					},
+					"quote": {
+						"S": "Quote 1"
+					}
+				}
+			}
+		},
+		{
+			"PutRequest": {
+				"Item": {
+					"id": {
+						"S": "002"
+					},
+					"quote": {
+						"S": "Quote 2"
+					}
+				}
+			}
+		},
+		{
+			"PutRequest": {
+				"Item": {
+					"id": {
+						"S": "003"
+					},
+					"quote": {
+						"S": "Quote 3"
+					}
+				}
+			}
+		}
+	]
+}
