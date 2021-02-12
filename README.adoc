@@ -1,0 +1,9 @@
+:doctype: book
+
+image:https://github.com/madhead/github-actions-demo/workflows/Default/badge.svg?branch=master&event=push[Build status]
+image:https://github.com/madhead/github-actions-demo/workflows/Deploy/badge.svg?branch=master[Deployment status]
+
+= Github Actions Demo
+
+* link:.github/workflows/default.yml[`.github/workflows/default.yml`] - tests every commit & PR
+* link:.github/workflows/deploy.yml[`.github/workflows/deploy.yml`] - deploys master

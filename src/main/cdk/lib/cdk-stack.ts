@@ -42,5 +42,9 @@ export class CdkStack extends cdk.Stack {
         });
 
         quotesApi.root.addMethod('GET', new apigateway.LambdaIntegration(quotesLambda))
+
+        new cdk.CfnOutput(this, 'URL', {
+            value: quotesApi.deploymentStage.urlForPath()
+        })
     }
 }
