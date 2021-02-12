@@ -9,5 +9,5 @@ data class Quote(
 
 fun Map<String, AttributeValue>.toQuote(): Quote = Quote(
         id = this["id"]?.s() ?: throw IllegalStateException("Missing id property"),
-        quote = this["quote"]?.s() ?: throw IllegalStateException("Missing quote property"),
+        quote = this["Quote of the day"]?.s() ?: throw IllegalStateException("Missing quote property"),
 )
