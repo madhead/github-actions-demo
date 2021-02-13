@@ -1,6 +1,5 @@
 :doctype: book
 
-image:https://github.com/madhead/github-actions-demo/workflows/Default/badge.svg?event=push[Build status]
 image:https://github.com/madhead/github-actions-demo/workflows/Deploy/badge.svg?branch=master[Deployment status]
 
 = Github Actions Demo
