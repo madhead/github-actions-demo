@@ -23,7 +23,7 @@ class Handler : RequestHandler<APIGatewayV2HTTPEvent, APIGatewayV2HTTPResponse> 
             headers = mapOf(
                     "Content-Type" to "text/plain"
             )
-            body = quotesService.getRandomQuote()
+            body = "Quote of the day: " + quotesService.getRandomQuote()
         }
     }
 }
